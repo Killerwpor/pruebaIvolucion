@@ -1,27 +1,27 @@
-# PruebaIvolucion
+# Prueba para Ivolucion por Johan Suárez
+### johanc.suarez@hotmail.com
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+### Requerimientos:
+-Esta prueba fue hecha con Angular version 11.0.5
 
-## Development server
+## Instrucciones para correr el proyecto:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Debe tener Angular instalado y revisar que las versiones sean compatibles, arriba se indica la versión utilizada para este proyecto.
 
-## Code scaffolding
+### Opción 1:
+Para bajar el proyecto puede clonarlo por medio de Git (git clone https://github.com/Killerwpor/pruebaIvolucion) 
+```sh
+$ git clone https://github.com/Killerwpor/pruebaIvolucion
+$ cd prueba-ivolucion
+$ npm install
+$ ng serve -o
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Opción 2:
+Bajar en esta misma pagina el zip, desempaquetarlo, entrar por consola a la carpeta del proyecto y correr los siguientes comandos
 
-## Build
+```sh
+$ npm install
+$ ng serve -o
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
