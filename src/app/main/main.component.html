@@ -1,0 +1,45 @@
+<div class="container">
+
+<!--Select que trae los departamentos-->
+<label for="exampleFormControlSelect1"><h1>Seleccione un departamento</h1></label>
+<select class="form-control" id="exampleFormControlSelect1" (change)="onChange($event.target.value)">
+    <option hidden selected>Seleccione una opción</option>
+    <ng-container *ngFor="let departamento of departamentos">
+        <option>{{departamento.descripcion}}</option>
+    </ng-container>
+  
+</select> 
+
+<!--Tabla para los detalles de los departamentos-->
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">ID localización</th>
+      <th scope="col">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+  
+        <ng-container *ngFor="let detail of arrayAux; let i=index">
+            <tr>
+            <th scope="row">{{inicioArray+i+1}}</th> 
+            <td>{{detail.localizacionId}}</td>
+            <td>{{detail.descripcion}}</td>  
+        </tr>  
+        </ng-container>
+   
+
+   
+  </tbody>
+</table>
+
+<!--Flechas para el paginador, se organizan en listas de a 10 items-->
+<img class="flecha" src="assets/left-arrow.png" (click)="previous()"> <img class="flecha float-right" (click)="next()" src="assets/right-arrow.png">
+
+
+<footer>
+    Prueba para Ivolución. Contacto: johanc.suarez@hotmail.com
+</footer>
+
+</div>

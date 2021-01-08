@@ -1,0 +1,19 @@
+.flecha{
+    width: 40px;
+}
+
+.flecha:hover{
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(131, 131, 131, 0.219);
+    color: white;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
